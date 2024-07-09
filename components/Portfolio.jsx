@@ -52,7 +52,7 @@ export default function Portfolio(){
                                     desc={feature.description}
                                 />
                                 <p className="mt-6">
-                                    <a href={feature.href} className="text-sm font-semibold leading-6 text-blue-400">
+                                    <a href={feature.href} className="text-sm font-semibold leading-6 text-sky-500 dark:text-sky-400">
                                         Sprawdź na żywo <span aria-hidden="true">→</span>
                                     </a>
                                 </p>

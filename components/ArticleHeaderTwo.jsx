@@ -16,9 +16,11 @@ export default function ArticleHeaderTwo({ header, subheader, slug }) {
         const offset = 128;
 
         if (sectionElement) {
-            const targetScroll = sectionElement.offsetTop - offset;
+            const elementPosition = sectionElement.getBoundingClientRect().top + window.pageYOffset;
+            const offsetPosition = elementPosition - offset;
+
             window.scrollTo({
-                top: targetScroll,
+                top: offsetPosition,
                 behavior: "smooth",
             });
         }
@@ -31,12 +33,12 @@ export default function ArticleHeaderTwo({ header, subheader, slug }) {
                 id={slug}
                 ref={sectionRef}
                 onClick={(e) => {
-                    e.preventDefault(); // Zapobiega domyślnemu przewinięciu
+                    e.preventDefault();
                     scrollToSection(slug);
                     window.history.pushState(null, null, `#${slug}`);
                 }}
             >
-                <h2 className="text-sm font-medium leading-7 text-blue-400">{header}</h2>
+                <h2 className="text-sm font-medium leading-7 text-sky-500 dark:text-sky-400">{header}</h2>
                 <p className="mt-2 text-xl font-bold tracking-tight text-gray-900 sm:text-3xl dark:text-white">
                     {subheader}
                 </p>

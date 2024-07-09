@@ -53,7 +53,7 @@ export function Intro() {
                 Tworzymy innowacyjne systemy informatyczne i wspieramy Twoją firmę w osiąganiu sukcesu
             </p>
 
-            <Button type="button" href={"/#usługi"} className={"py-2"}>
+            <Button type="button" href={"/#usługi"} className={"py-2"} sectionId={"usługi"}>
                 Sprawdź usługi
             </Button>
 
