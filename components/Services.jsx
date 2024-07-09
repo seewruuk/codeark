@@ -1,6 +1,5 @@
 import data from "@/constans/services";
 import Image from "next/image";
-import ArticleHeader from "@/components/ArticleHeader";
 import Paragraph from "@/components/Paragraph";
 import ArticleHeaderTwo from "@/components/ArticleHeaderTwo";
 
@@ -8,7 +7,6 @@ import ArticleHeaderTwo from "@/components/ArticleHeaderTwo";
 export default function Services() {
     return (
         <section>
-            {/*<ArticleHeader title={"Usługi"} slug={"usługi"} />*/}
 
             <ArticleHeaderTwo
                 header={"Usługi"}

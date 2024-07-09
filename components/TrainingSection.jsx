@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import ArticleHeader from "@/components/ArticleHeader";
 import Paragraph from "@/components/Paragraph";
 import ArticleHeaderTwo from "@/components/ArticleHeaderTwo";
 

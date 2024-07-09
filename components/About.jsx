@@ -1,12 +1,9 @@
-import ArticleHeader from "@/components/ArticleHeader";
 import Paragraph from "@/components/Paragraph";
 import ArticleHeaderTwo from "@/components/ArticleHeaderTwo";
 
 export default function About() {
     return (
         <section>
-
-            {/*<ArticleHeader title={"O nas"} slug={"o-nas"}/>*/}
 
             <ArticleHeaderTwo
                 header={"O nas"}
