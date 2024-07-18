@@ -99,21 +99,21 @@ function FixedSidebar({main, footer}) {
                 <div
                     className="mx-auto max-w-lg lg:mx-0 lg:flex lg:w-96 lg:max-w-none lg:flex-col lg:before:flex-1 lg:before:pt-6">
 
-                    <div className={"flex space-x-8"}>
-                        {
-                            collections.map((item, index) => (
-                                <Link
-                                    href={item.href}
-                                    key={index}
-                                    className={"text-[12px] font-medium text-white transition-colors hover:text-sky-400"}
-                                >
-                                    {item.label}
+                    {/*<div className={"flex space-x-8 max-lg:pt-[70px]"}>*/}
+                    {/*    {*/}
+                    {/*        collections.map((item, index) => (*/}
+                    {/*            <Link*/}
+                    {/*                href={item.href}*/}
+                    {/*                key={index}*/}
+                    {/*                className={"text-[12px] font-medium text-white transition-colors hover:text-sky-400"}*/}
+                    {/*            >*/}
+                    {/*                {item.label}*/}
 
-                                </Link>
-                            ))
-                        }
+                    {/*            </Link>*/}
+                    {/*        ))*/}
+                    {/*    }*/}
 
-                    </div>
+                    {/*</div>*/}
 
                     <div className="pb-16 pt-20 sm:pb-20 sm:pt-32 lg:py-20">
                         <div className="relative">

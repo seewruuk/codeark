@@ -45,11 +45,14 @@ export function Intro() {
 
 
 
-            <div className={"flex items-start"}>
-                <Link href="/public">
-                    <Image src={LogoImage} alt={"Logo CodeArk - Arkadiusz Stankiewicz"} width={200} height={200} className={"cursor-pointer"}/>
-                </Link>
-            </div>
+            {/*<div className={"flex items-start"}>*/}
+            {/*    <Link href="/public">*/}
+            {/*        <Image src={LogoImage} alt={"Logo CodeArk - Arkadiusz Stankiewicz"} width={200} height={200} className={"cursor-pointer"}/>*/}
+            {/*    </Link>*/}
+            {/*</div>*/}
+
+
+
             <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
                 <span className="text-sky-400 font-medium">CodeArk</span> <br />
                 Arkadiusz Stankiewicz{' '}
