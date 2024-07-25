@@ -2,7 +2,6 @@ import Link from 'next/link'
 
 import { IconLink } from '@/components/IconLink'
 import { Logo } from '@/components/Logo'
-import { SignUpForm } from '@/components/SignUpForm'
 import {Button} from "@/components/Button";
 import { MdPhoneIphone } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
@@ -31,26 +30,16 @@ function MailIcon() {
     )
 }
 
-function XIcon(props) {
-    return (
-        <svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor" {...props}>
-            <path d="M9.51762 6.77491L15.3459 0H13.9648L8.90409 5.88256L4.86212 0H0.200195L6.31244 8.89547L0.200195 16H1.58139L6.92562 9.78782L11.1942 16H15.8562L9.51728 6.77491H9.51762ZM7.62588 8.97384L7.00658 8.08805L2.07905 1.03974H4.20049L8.17706 6.72795L8.79636 7.61374L13.9654 15.0075H11.844L7.62588 8.97418V8.97384Z" />
-        </svg>
-    )
-}
 
 export function Intro() {
     return (
         <>
-
-
 
             {/*<div className={"flex items-start"}>*/}
             {/*    <Link href="/public">*/}
             {/*        <Image src={LogoImage} alt={"Logo CodeArk - Arkadiusz Stankiewicz"} width={200} height={200} className={"cursor-pointer"}/>*/}
             {/*    </Link>*/}
             {/*</div>*/}
-
 
 
             <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
@@ -65,7 +54,6 @@ export function Intro() {
                 Sprawdź usługi
             </Button>
 
-            {/*<SignUpForm />*/}
 
             <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
 
@@ -82,16 +70,5 @@ export function Intro() {
                 </IconLink>
             </div>
         </>
-    )
-}
-
-export function IntroFooter() {
-    return (
-        <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
-            Stworzone przez{' '}
-            <IconLink href="#" icon={XIcon} compact>
-                @seewruuk
-            </IconLink>
-        </p>
     )
 }

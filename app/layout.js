@@ -2,6 +2,7 @@ import {Inter} from "next/font/google";
 import "./globals.css";
 import {Providers} from "@/app/providers/ThemeProvider";
 import {Layout} from "@/components/Layout";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -21,11 +22,11 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="pl" className={`${inter.className}`}>
-        <body className={`flex min-h-full flex-col bg-white dark:bg-gray-950`}>
+
+        <body className={`flex min-h-full flex-col bg-white dark:bg-gray-950 overflow-x-hidden`}>
         <Providers>
-            <Layout>
-                {children}
-            </Layout>
+            <Navbar/>
+            {children}
         </Providers>
         </body>
         </html>
