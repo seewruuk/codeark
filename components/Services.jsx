@@ -24,7 +24,7 @@ export default function Services() {
                                 key={index + item}
                                 className={"flex-1 flex flex-col items-start"}
                             >
-                                <div className={"dark:bg-white rounded-2xl grid place-items-center bg-gray-100"}>
+                                <div className={"bg-white rounded-2xl grid place-items-center "}>
                                     <Image
                                         src={item.icon}
                                         alt={item.title}
@@ -33,7 +33,7 @@ export default function Services() {
                                     />
                                 </div>
                                 <div>
-                                    <h3 className={"text-lg font-semibold my-4"}>{item.title}</h3>
+                                    <h3 className={"text-lg font-semibold my-4 text-white"}>{item.title}</h3>
                                     <Paragraph desc={item.desc} />
                                 </div>
 

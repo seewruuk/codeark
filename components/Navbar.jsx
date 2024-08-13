@@ -47,7 +47,7 @@ export default function Navbar() {
 
                 <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
                     <div className="fixed inset-0 z-10"/>
-                    <DialogPanel className="fixed inset-y-0 left-0 z-10 w-full overflow-y-auto bg-black/90 backdrop-blur-md px-8 py-10">
+                    <DialogPanel className="fixed inset-y-0 left-0 z-10 w-full overflow-y-auto bg-black px-8 py-10">
 
                         <div className="flex items-center justify-between">
                             <div className="flex flex-1 justify-start">
@@ -66,7 +66,7 @@ export default function Navbar() {
                                 <a
                                     key={item.name}
                                     href={item.href}
-                                    className="-mx-3 block  rounded-lg px-3 py-2 text-base font-base leading-7 text-white hover:bg-black"
+                                    className="-mx-3 block  rounded-lg px-3 py-2 text-[21px] font-base leading-7 text-white hover:bg-black"
                                 >
                                     {item.name}
                                 </a>

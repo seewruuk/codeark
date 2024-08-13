@@ -6,7 +6,6 @@ import Portfolio from "@/components/Portfolio";
 import Footer from "@/components/Footer";
 import FixedSidebar from "@/components/FixedSidebar";
 import {Intro} from "@/components/Intro";
-import {ThemeToggle} from "@/components/ThemeToggle";
 
 export default function Home() {
     return (

@@ -15,7 +15,7 @@ export default function About() {
             <Paragraph
                 desc={
                     <>
-                        <span className={"font-medium dark:text-white text-black"}>CodeArk Arkadiusz Stankiewicz</span>{' '}
+                        <span className={"font-medium text-white"}>CodeArk Arkadiusz Stankiewicz</span>{' '}
                         to firma specjalizująca się w
                         dostarczaniu zaawansowanych rozwiązań informatycznych.
                         Nasza misja to wspieranie przedsiębiorstw w osiąganiu celów

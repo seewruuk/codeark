@@ -44,7 +44,7 @@ export default function Portfolio(){
                 <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-1">
                     {secondaryFeatures.map((feature) => (
                         <div key={feature.name} className="flex flex-col">
-                            <div className="flex items-center gap-x-3 text-base font-semibold leading-7 ">
+                            <div className="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
                                 {feature.name}
                             </div>
                             <div className="mt-4 flex flex-auto flex-col text-base leading-7 ">
@@ -52,7 +52,7 @@ export default function Portfolio(){
                                     desc={feature.description}
                                 />
                                 <p className="mt-6">
-                                    <a href={feature.href} className="text-sm font-semibold leading-6 text-sky-500 dark:text-sky-400">
+                                    <a href={feature.href} className="text-sm font-semibold leading-6 text-sky-400">
                                         Sprawdź na żywo <span aria-hidden="true">→</span>
                                     </a>
                                 </p>

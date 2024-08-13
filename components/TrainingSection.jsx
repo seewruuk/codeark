@@ -16,7 +16,7 @@ export default function TrainingSection() {
             <Image
                 src={"https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
                 alt={"Training"}
-                className={"w-full h-[230px] object-cover rounded-2xl mb-8 border-4 dark:border-white border-slate-300"}
+                className={"w-full h-[230px] object-cover rounded-2xl mb-8 border-4 border-slate-300"}
                 width={1260}
                 height={750}
             />
